@@ -4,8 +4,6 @@ const code = `function square(n) {
   return n * n;
 }`;
 
-let a = '';
-
-a = babylon.parse(code);
+let a = babylon.parse(code);
 
 console.log(a);
